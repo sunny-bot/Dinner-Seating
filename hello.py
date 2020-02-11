@@ -8,8 +8,10 @@ with open('/Users/sunnyzhao/Desktop/StudentList.csv', mode='r', encoding='utf-8-
     csv_reader = csv.DictReader(csv_file)
     for row in csv_reader:
             #add alphabeticalList entries
-            alphabeticalList.append(f'{row["Ahmad"]}, {row["Daanish"]}')
-
+            alphabeticalList.append(f'{row["Ahmad"]}, {row["Daanish"]}') 
+            # Dannish has given me permission to use his name in my code and agreed that this isn't a privacy violation. 
+                                    
+                                    
 #shuffle any given list using a shallow copy to keep the objects the same
 def shuffleObjects(copiedList):
     shuffledObjects = copiedList.copy()
